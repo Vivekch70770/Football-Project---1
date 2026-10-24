@@ -1,0 +1,15 @@
+# VARVision AI - tested with Python 3.10 - 3.12 on Windows (CPU only is fine)
+streamlit>=1.50,<2
+streamlit-image-coordinates>=0.1.9,<1
+ultralytics>=8.3,<9
+lapx>=0.5.5            # needed by ByteTrack / BoT-SORT
+opencv-python>=4.9,<5
+numpy>=1.26,<3
+pandas>=2.1,<3
+scipy>=1.11
+scikit-learn>=1.4
+matplotlib>=3.8
+plotly>=5.20
+Pillow>=10.1
+imageio-ffmpeg>=0.5     # bundles an FFmpeg binary - no separate FFmpeg install needed
+pytest>=8

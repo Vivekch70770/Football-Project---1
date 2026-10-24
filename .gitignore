@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Large / private files - never commit these
+models/*.pt
+models/*.onnx
+data/uploads/*
+data/samples/*
+data/*.db
+outputs/*
+!**/.gitkeep
+*.mp4
+*.mov
+*.mkv
+*.avi
+.env
+*.py[cod]
+.DS_Store
